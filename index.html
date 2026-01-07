@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MAI-UI: Foundational GUI Agent for Mobile Intelligent Assistance</title>
-    <!-- 请确保你下载了 Mobile World 的 style.css 或者使用下面简化的内联样式 -->
+    <title>MAI-UI: Real-World Centric Foundation GUI Agents</title>
+
     <link rel="stylesheet" href="style.css"> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -363,10 +363,34 @@
             </span>
             <span>Evaluating in Real-World MobileWorld</span>
         </h2>
-        <p style="text-align: center; color: #666; margin-bottom: 1rem; max-width: 900px; margin-left: auto; margin-right: auto;">
-            Mobile World is a substantially more challenging mobile-use benchmark designed to better reflect real-world mobile usage. It comprises 201 tasks across 20 applications, featuring long-horizon, cross-app tasks, and novel task categories including agent-user interaction and MCP-augmented tasks.
+        <p style="text-align: center; color: #666; margin-bottom: 1.5rem; max-width: 900px; margin-left: auto; margin-right: auto; line-height: 1.6;">
+            We also introduce MobileWorld benchmark: While maintaining the same level of rigorous, reproducible evaluation as AndroidWorld, MobileWorld offers a more challenging online mobile-use benchmark by introducing four additional features that better capture real-world agent behavior.
         </p>
-        <img src="asset/compare_to_aw.jpg" style="width: 100%; display: block; margin: 0 auto; border: 1px solid #ddd; border-radius: 8px;">
+        <div style="max-width: 1200px; margin: 0 auto 1.5rem; padding: 0 1rem;">
+            <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-top: 1.5rem;">
+                <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; border-left: 4px solid #0d6efd;">
+                    <div style="font-size: 1.5rem; margin-bottom: 0.5rem;">🎯</div>
+                    <div style="font-weight: 600; color: #333; margin-bottom: 0.5rem; font-size: 0.95rem;">Broad Real-World Coverage</div>
+                    <div style="color: #666; font-size: 0.85rem; line-height: 1.4;">201 carefully curated tasks across 20 mobile applications</div>
+                </div>
+                <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; border-left: 4px solid #0d6efd;">
+                    <div style="font-size: 1.5rem; margin-bottom: 0.5rem;">🔄</div>
+                    <div style="font-weight: 600; color: #333; margin-bottom: 0.5rem; font-size: 0.95rem;">Long-Horizon Tasks</div>
+                    <div style="color: #666; font-size: 0.85rem; line-height: 1.4;">Multi-step reasoning and cross-app workflows</div>
+                </div>
+                <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; border-left: 4px solid #0d6efd;">
+                    <div style="font-size: 1.5rem; margin-bottom: 0.5rem;">👥</div>
+                    <div style="font-weight: 600; color: #333; margin-bottom: 0.5rem; font-size: 0.95rem;">Agent-User Interaction</div>
+                    <div style="color: #666; font-size: 0.85rem; line-height: 1.4;">Novel tasks requiring dynamic human-agent collaboration</div>
+                </div>
+                <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; border-left: 4px solid #0d6efd;">
+                    <div style="font-size: 1.5rem; margin-bottom: 0.5rem;">🔧</div>
+                    <div style="font-weight: 600; color: #333; margin-bottom: 0.5rem; font-size: 0.95rem;">MCP-Augmented Tasks</div>
+                    <div style="color: #666; font-size: 0.85rem; line-height: 1.4;">Support Model Context Protocol (MCP) to evaluate hybrid tool usage</div>
+                </div>
+            </div>
+        </div>
+        <img src="asset/compare_to_aw.png" style="width: 100%; display: block; margin: 0 auto; border: 1px solid #ddd; border-radius: 8px;">
         <figcaption style="text-align: center; font-size: 18px; color: #000; margin-top: 10px;">Comparison between AndroidWorld and MobileWorld. Mobile World features harder tasks with more steps, more cross-app workflows, and achieves lower SOTA accuracy, demonstrating its increased difficulty.</figcaption>
         </section>
 
