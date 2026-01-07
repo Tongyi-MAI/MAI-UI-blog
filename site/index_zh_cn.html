@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MAI-UI: Foundational GUI Agent for Mobile Intelligent Assistance</title>
+    <title>MAI-UI: Real-World Centric Foundation GUI Agents</title>
     <!-- 请确保你下载了 Mobile World 的 style.css 或者使用下面简化的内联样式 -->
     <link rel="stylesheet" href="style.css"> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -363,10 +363,34 @@
             </span>
             <span>真实世界 MobileWorld 评估</span>
         </h2>
-        <p style="text-align: center; color: #666; margin-bottom: 1rem; max-width: 900px; margin-left: auto; margin-right: auto;">
-            Mobile World 是一个更具挑战性的移动使用基准测试，旨在更好地反映真实世界的移动使用场景。它包含 20 个应用程序中的 201 个任务，具有长时程、跨应用任务，以及包括智能体-用户交互和 MCP 增强任务在内的新型任务类别。
+        <p style="text-align: center; color: #666; margin-bottom: 1.5rem; max-width: 900px; margin-left: auto; margin-right: auto; line-height: 1.6;">
+            我们还推出了 MobileWorld 基准测试：在保持与 AndroidWorld 相同水平的严格、可复现评估的同时，MobileWorld 通过引入四个额外特性，提供了一个更具挑战性的在线移动使用基准测试，更好地捕捉真实世界的智能体行为。
         </p>
-        <img src="asset/compare_to_aw.jpg" style="width: 100%; display: block; margin: 0 auto; border: 1px solid #ddd; border-radius: 8px;">
+        <div style="max-width: 1200px; margin: 0 auto 1.5rem; padding: 0 1rem;">
+            <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-top: 1.5rem;">
+                <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; border-left: 4px solid #0d6efd;">
+                    <div style="font-size: 1.5rem; margin-bottom: 0.5rem;">🎯</div>
+                    <div style="font-weight: 600; color: #333; margin-bottom: 0.5rem; font-size: 0.95rem;">广泛真实世界覆盖</div>
+                    <div style="color: #666; font-size: 0.85rem; line-height: 1.4;">20 个移动应用中的 201 个精心策划的任务</div>
+                </div>
+                <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; border-left: 4px solid #0d6efd;">
+                    <div style="font-size: 1.5rem; margin-bottom: 0.5rem;">🔄</div>
+                    <div style="font-weight: 600; color: #333; margin-bottom: 0.5rem; font-size: 0.95rem;">长时程任务</div>
+                    <div style="color: #666; font-size: 0.85rem; line-height: 1.4;">多步骤推理和跨应用工作流</div>
+                </div>
+                <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; border-left: 4px solid #0d6efd;">
+                    <div style="font-size: 1.5rem; margin-bottom: 0.5rem;">👥</div>
+                    <div style="font-weight: 600; color: #333; margin-bottom: 0.5rem; font-size: 0.95rem;">智能体-用户交互</div>
+                    <div style="color: #666; font-size: 0.85rem; line-height: 1.4;">需要动态人机协作的新颖任务</div>
+                </div>
+                <div style="background: #f8f9fa; padding: 1rem; border-radius: 8px; border-left: 4px solid #0d6efd;">
+                    <div style="font-size: 1.5rem; margin-bottom: 0.5rem;">🔧</div>
+                    <div style="font-weight: 600; color: #333; margin-bottom: 0.5rem; font-size: 0.95rem;">MCP 增强任务</div>
+                    <div style="color: #666; font-size: 0.85rem; line-height: 1.4;">支持模型上下文协议（MCP）以评估混合工具使用</div>
+                </div>
+            </div>
+        </div>
+        <img src="asset/compare_to_aw.png" style="width: 100%; display: block; margin: 0 auto; border: 1px solid #ddd; border-radius: 8px;">
         <figcaption style="text-align: center; font-size: 18px; color: #000; margin-top: 10px;">AndroidWorld 与 MobileWorld 的对比。Mobile World 具有更困难的任务、更多步骤、更多跨应用工作流，并达到更低的 SOTA 准确率，证明了其增加的难度。</figcaption>
         </section>
 
